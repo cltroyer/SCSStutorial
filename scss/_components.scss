@@ -1,0 +1,62 @@
+.logo {
+    font-size: 70px;
+    color: $color-pri;
+    width: 110px;
+    height: 110px;
+    border: 3px solid $color-pri;
+    border-radius: 50%;
+    margin-right: 20px;
+    @include flex-layout
+    
+}
+
+.main-name {
+    font-family: $font-nunito;
+    font-size: 50px;
+    color: $color-sec;
+    @include text-style
+}
+
+.sub-name {
+    font-family: $font-josefinSans;
+    font-size: 18px;
+    color: $color-sec;
+    text-align: center;
+    @include text-style
+}
+
+.main-heading {
+    font-family: $font-dancingScript;
+    font-size: 100px;
+    font-weight: 300;
+    color: $color-pri;
+    margin-bottom: 40px;
+}
+
+.sub-heading {
+    font-family: $font-josefinSans;
+    font-size: 60px;
+    font-weight: 300;
+    color: $color-sec;
+    margin-bottom: 80px;
+}
+
+.main-btn {
+    width: 170px;
+    height: 45px;
+    font-family: $font-josefinSans;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $color-pri;
+    background-color: transparent;
+    border: 1px solid $color-pri;
+    outline: none;
+    cursor: pointer;
+    transition: all .4s;
+
+    &:hover {
+        background-color: $color-pri;
+        color: $color-dark;
+    }
+}
